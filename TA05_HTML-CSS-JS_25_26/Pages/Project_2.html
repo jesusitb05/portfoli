@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>ChefAI — Project 2</title>
+<link rel="stylesheet" href="../estilo/style.css" />
+</head>
+<body>
+<canvas id="starfield"></canvas>
+
+<header class="navbar">
+  <nav>
+    <ul>
+      <li><a href="../index.html">HOME</a></li>
+      <li><a href="../Pages/Project_1.html">PROJECT 1</a></li>
+      <li><a href="../Pages/Project_2.html">PROJECT 2</a></li>
+      <li><a href="../Pages/All_projects.html">ALL PROJECTS</a></li>
+      <li><a href="../Pages/From.html">FORM</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main class="hyperspace" style="padding:48px 24px; align-items:center; justify-content:flex-start;">
+  <header class="project-hero" aria-labelledby="chef-title">
+    <h1 id="chef-title" class="proj-title" style="font-size:44px;">ChefAI</h1>
+    <p class="subtitle">An assistant that helps you cook with what you already have — reducing waste and saving time.</p>
+
+    <p style="margin-top:16px;">
+      <a class="hero-cta" href="#design">View app design</a>
+    </p>
+
+    <nav class="project-toc" aria-label="Project sections">
+      <a href="#introduction">Introduction</a>
+      <a href="#why">Why ChefAI</a>
+      <a href="#challenges">Challenges</a>
+      <a href="#team">Team</a>
+      <a href="#outcome">Outcome</a>
+      <a href="#design">App design</a>
+    </nav>
+  </header>
+
+  <section id="introduction" class="project-section" role="region" aria-labelledby="intro-h">
+    <h2 id="intro-h">Introduction — The story behind ChefAI</h2>
+    <p>In the modern city of Monteluz, daily routines left little time for creativity in the kitchen. Many people repeatedly cooked the same meals or wasted food simply because they did not know what to prepare with the ingredients they already had at home.</p>
+    <p>It was in this context that Jesús and Cristian, ASIX students with a passion for technology and practical solutions, identified a clear problem: lack of ideas leads to food waste. Friends and family often complained about having a fridge full of ingredients but no inspiration.</p>
+    <p>ChefAI was created to solve exactly that.</p>
+  </section>
+
+  <section id="why" class="project-section" role="region" aria-labelledby="why-h">
+    <h2 id="why-h">Why ChefAI?</h2>
+    <p>ChefAI is based on a simple but powerful concept: Tell us what you have — we tell you what you can cook.</p>
+    <p>The project was designed with several clear objectives:</p>
+    <ul>
+      <li>Reduce food waste by maximizing ingredient usage.</li>
+      <li>Save time in daily meal planning.</li>
+      <li>Help users discover new recipes without extra shopping.</li>
+      <li>Encourage healthier and more varied eating habits.</li>
+      <li>Make cooking accessible even for beginners.</li>
+    </ul>
+    <p>ChefAI does not aim to replace professional cooking platforms, but to become a practical daily assistant for real kitchens.</p>
+  </section>
+
+  <section id="challenges" class="project-section" role="region" aria-labelledby="challenges-h">
+    <h2 id="challenges-h">Challenges &amp; drawbacks</h2>
+    <p>Developing ChefAI involved several technical and conceptual challenges:</p>
+    <ul>
+      <li>Ingredient naming inconsistencies (e.g. tomato vs tomatoes vs cherry tomato).</li>
+      <li>Recipes with optional or flexible ingredients.</li>
+      <li>User expectations for both simple and advanced recipes.</li>
+      <li>Early interface versions were too technical and required simplification.</li>
+    </ul>
+    <p>These issues forced the team to improve ingredient normalization, recipe matching rules, and visual clarity. Each problem helped shape a more realistic and user-centered platform.</p>
+  </section>
+
+  <section id="team" class="project-section" role="region" aria-labelledby="team-h">
+    <h2 id="team-h">Team</h2>
+    <p>ChefAI was led by Jesús and Cristian with the support of two assistant collaborators.</p>
+
+    <div class="team-grid" role="list">
+      <!-- Jesús -->
+      <article class="team-card" role="listitem">
+        <div class="team-photo">
+          <img src="../imagenes/Jesus.png" alt="Jesús — Logic and system design" />
+        </div>
+        <h3 class="team-name">Jesús</h3>
+        <p class="team-role">Responsible for algorithm logic and project structure.</p>
+      </article>
+
+      <!-- Cristian -->
+      <article class="team-card" role="listitem">
+        <div class="team-photo">
+          <img src="../imagenes/Cristian.png" alt="Cristian — UX and interface design" />
+        </div>
+        <h3 class="team-name">Cristian</h3>
+        <p class="team-role">Focused on clarity, simplicity and user comfort.</p>
+      </article>
+
+      <!-- Pablo Tomás Parera -->
+      <article class="team-card" role="listitem">
+        <div class="team-photo">
+          <img src="../imagenes/tomas.png" alt="Pablo Tomás Parera — Recipe testing and validation" />
+        </div>
+        <h3 class="team-name">Pablo Tomás Parera</h3>
+        <p class="team-role">Tested recommendations and ensured results made sense in real kitchens.</p>
+      </article>
+
+      <!-- Guillem Chivite -->
+      <article class="team-card" role="listitem">
+        <div class="team-photo">
+          <img src="../imagenes/Chivite.png" alt="Guillem Chivite — Data organization support" />
+        </div>
+        <h3 class="team-name">Guillem Chivite</h3>
+        <p class="team-role">Helped structure recipe categories and ingredient databases.</p>
+      </article>
+    </div>
+
+    <p style="margin-top:12px;">The assistants brought creativity, feedback and many trial-and-error moments that greatly improved ChefAI’s reliability.</p>
+  </section>
+
+  <section id="outcome" class="project-section" role="region" aria-labelledby="outcome-h">
+    <h2 id="outcome-h">Outcome</h2>
+    <p>ChefAI became a useful everyday tool for students, families and busy users. It reduced food waste, increased cooking creativity and transformed forgotten ingredients into real meals.</p>
+    <p>Over time, ChefAI evolved with better ingredient matching, clearer recipe presentation and improved filtering options, increasing user satisfaction and trust.</p>
+    <p>ChefAI proved that small ideas can generate big daily improvements.</p>
+  </section>
+
+  <section id="design" class="project-section" role="region" aria-labelledby="design-h">
+    <h2 id="design-h">App design — how ChefAI looks</h2>
+    <div class="design-grid">
+      <div class="design-text">
+        <p>ChefAI’s mobile interface is designed to be clean, friendly and focused on speed. The main screen allows users to quickly select or type available ingredients, while the system immediately displays compatible recipes.</p>
+        <p>Cards present each recipe with a clear name, preparation time and difficulty level. Navigation is intentionally minimal to avoid distraction and help users reach results in seconds.</p>
+        <p>Soft colors and rounded elements transmit calm and comfort, reinforcing the idea that cooking should feel easy, not stressful. Icons and spacing were chosen to maintain visual balance and readability.</p>
+        <p>In short, ChefAI’s interface reflects its philosophy: simple, helpful and human-centered.</p>
+      </div>
+
+      <figure class="design-figure" aria-hidden="false">
+        <img src="../imagenes/chef ai.png" alt="ChefAI mobile interface mockup" />
+      </figure>
+    </div>
+  </section>
+</main>
+
+<footer class="footer" style="padding:16px 0;">
+  <div class="footer-box">
+    <p>© 2025 CRISTIAN OJEDA, JESUS PALMA — ALL RIGHTS RESERVED</p>
+  </div>
+</footer>
+
+<script src="../java.js"></script>
+</body>
+</html>
