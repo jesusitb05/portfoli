@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>EcoSwap — Project 1</title>
+<link rel="stylesheet" href="../estilo/style.css" />
+</head>
+<body>
+  <!-- add starfield canvas -->
+  <canvas id="starfield"></canvas>
+
+<header class="navbar">
+  <nav>
+    <ul>
+      <li><a href="../index.html">HOME</a></li>
+      <li><a href="../Pages/Project_1.html">PROJECT 1</a></li>
+      <li><a href="../Pages/Project_2.html">PROJECT 2</a></li>
+      <li><a href="../Pages/All_projects.html">ALL PROJECTS</a></li>
+      <li><a href="../Pages/From.html">FORM</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main class="hyperspace" style="padding:48px 24px; align-items:center; justify-content:flex-start;">
+  <header class="project-hero" aria-labelledby="eco-title">
+    <h1 id="eco-title" class="proj-title" style="font-size:44px;">EcoSwap</h1>
+    <p class="subtitle">A neighborhood-driven platform to give items a second life — reducing waste, encouraging reuse and strengthening community ties.</p>
+
+    <!-- added: quick CTA button that jumps to the App Design section -->
+    <p style="margin-top:16px;">
+      <a class="hero-cta" href="#design">View app design</a>
+    </p>
+
+    <nav class="project-toc" aria-label="Project sections">
+      <a href="#introduction">Introduction</a>
+      <a href="#why">Why EcoSwap</a>
+      <a href="#challenges">Challenges</a>
+      <a href="#team">Team</a>
+      <a href="#outcome">Outcome</a>
+      <a href="#design">App design</a>
+    </nav>
+  </header>
+
+  <section id="introduction" class="project-section" role="region" aria-labelledby="intro-h">
+    <h2 id="intro-h">Introduction — The story behind EcoSwap</h2>
+    <p>In the small tech-minded town of Valleverde, rapid consumption had become an obvious problem: overflowing public bins and an increasing public concern about environmental impact. It was here that Jesús and Cristian, two ASIX students passionate about technology and social change, began to ask how they could help their community.</p>
+    <p>They noticed a worrying pattern: perfectly usable items were being discarded every day — from books in excellent condition to nearly new clothing — both from private homes and small shops clearing stock. Even worse, many neighbors needed exactly the items others were throwing away.</p>
+  </section>
+
+  <section id="why" class="project-section" role="region" aria-labelledby="why-h">
+    <h2 id="why-h">Why EcoSwap?</h2>
+    <p>EcoSwap was born from a simple idea: encourage exchange instead of consumption. Jesús focused on system problems while Cristian focused on a simple, user-friendly experience. The platform was built with clear goals:</p>
+    <ul>
+      <li>Significantly reduce local waste.</li>
+      <li>Promote a circular economy within the community.</li>
+      <li>Enable cost-free mutual support among neighbors.</li>
+      <li>Encourage a more sustainable way of life.</li>
+    </ul>
+  </section>
+
+  <section id="challenges" class="project-section" role="region" aria-labelledby="challenges-h">
+    <h2 id="challenges-h">Challenges & drawbacks</h2>
+    <p>No project is without difficulties. During the early stages EcoSwap faced several issues:</p>
+    <ul>
+      <li>Low participation at the start — many people hesitated to post items due to shyness or distrust.</li>
+      <li>The need for a clean, well-structured database — items varied widely and required consistent categories and metadata.</li>
+      <li>Technical problems such as duplicated listings and large image uploads that strained the server.</li>
+      <li>Disputes during exchanges, which led to improved rules and clearer moderation procedures.</li>
+    </ul>
+    <p>Each challenge required a pragmatic fix: clearer UX prompts, upload limits, duplicate detection and a transparent code of conduct for users.</p>
+  </section>
+
+  <section id="team" class="project-section" role="region" aria-labelledby="team-h">
+    <h2 id="team-h">Team</h2>
+    <p>EcoSwap was led by Jesús and Cristian with support from additional helpers. Below are short roles and photos where available.</p>
+
+    <div class="team-grid" role="list">
+      <!-- Jesús (real photo) -->
+      <article class="team-card" role="listitem">
+        <div class="team-photo">
+          <img src="../imagenes/Jesus.png" alt="Jesús — product and community strategy" />
+        </div>
+        <h3 class="team-name">Jesús</h3>
+        <p class="team-role">Product & community strategy — identifies system opportunities.</p>
+      </article>
+
+      <!-- Cristian (real photo) -->
+      <article class="team-card" role="listitem">
+        <div class="team-photo">
+          <img src="../imagenes/Cristian.png" alt="Cristian — UX & visual design" />
+        </div>
+        <h3 class="team-name">Cristian</h3>
+        <p class="team-role">UX & visual design — simplifies posting and browsing.</p>
+      </article>
+
+      <!-- Pablo (ahora con foto real) -->
+      <article class="team-card" role="listitem">
+        <div class="team-photo">
+          <img src="../imagenes/tomas.png" alt="Pablo Tomás Parera — Feature testing and QA" />
+        </div>
+        <h3 class="team-name">Pablo Tomás Parera</h3>
+        <p class="team-role">Feature testing, bug hunting and proposing improvements.</p>
+      </article>
+
+      <!-- Guillem (ahora con foto real) -->
+      <article class="team-card" role="listitem">
+        <div class="team-photo">
+          <img src="../imagenes/Chivite.png" alt="Guillem Chivite — System administration support" />
+        </div>
+        <h3 class="team-name">Guillem Chivite</h3>
+        <p class="team-role">System administration support — monitors server health and load.</p>
+      </article>
+    </div>
+
+    <p style="margin-top:12px;">Both helpers brought energy and ideas — and occasionally chaos when experiments broke previously working behaviour. Their practical contributions, paired with community feedback, were essential to the project’s maturation.</p>
+  </section>
+
+  <section id="outcome" class="project-section" role="region" aria-labelledby="outcome-h">
+    <h2 id="outcome-h">Outcome</h2>
+    <p>Thanks to the team's dedication and community support, EcoSwap became a small but meaningful symbol of neighborhood sustainability and cooperation. It helped turn excess into opportunity and inspired neighbors to think differently about consumption.</p>
+    <p>EcoSwap continues to evolve: improved moderation, better image handling and clearer posting flows have increased trust and participation.</p>
+  </section>
+
+  <!-- new: App design section with side-by-side image + translated professional code -->
+  <section id="design" class="project-section" role="region" aria-labelledby="design-h">
+    <h2 id="design-h">App design — how EcoSwap looks</h2>
+    <div class="design-grid">
+      <div class="design-text">
+        <p>The illustration shows EcoSwap's mobile interface, created to be simple, intuitive and visually uncluttered. The main screen presents clear exchange categories — for example: books, sustainable clothing and plants — each represented by clean, easy-to-recognize icons. Every card includes a short title and a concise description so users can immediately understand what is offered.</p>
+
+        <p>The top navigation contains the essential areas: Feed, Lists, Posts, Messages and Profile. This layout responds to a central project principle: effortless navigation so anyone — regardless of technical experience — can browse and interact with ease. A floating action button at the bottom right enables fast posting of new items, reinforcing EcoSwap's primary goal: make sharing and reusing as simple as tapping a button.</p>
+
+        <p>The overall aesthetic uses soft tones and a minimalist style to convey sustainability, order and calm. We preferred illustrations over photographs to maintain visual coherence and avoid distractions, focusing the user on functionality and trustworthiness.</p>
+
+        <p>In short: EcoSwap's interface is designed to be accessible, friendly and confidence‑inspiring from first use — reflecting the project's values of simplicity, sustainability and community.</p>
+      </div>
+
+      <figure class="design-figure" aria-hidden="false">
+        <img src="../imagenes/Project_1_foto.png" alt="EcoSwap mobile interface mockup" />
+      </figure>
+    </div>
+  </section>
+</main>
+
+<footer class="footer" style="padding:16px 0;">
+  <div class="footer-box">
+    <p>© 2025 CRISTIAN OJEDA, JESUS PALMA — ALL RIGHTS RESERVED</p>
+  </div>
+</footer>
+
+<!-- add: main script -->
+<script src="../java.js"></script>
+</body>
+</html>

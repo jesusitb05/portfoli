@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Star Wars Style Layout</title>
+<link rel="stylesheet" href="./estilo/style.css" />
+<!-- added: Font Awesome so the .fa-jedi-order icon renders -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+<!-- added: elegant display font (Playfair Display); keeps a clean fallback stack -->
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<canvas id="starfield"></canvas>
+
+<header class="navbar">
+<nav>
+<ul>
+<li><a href="./index.html">HOME</a></li>
+<li><a href="./Pages/Project_1.html">PROJECT 1</a></li>
+<li><a href="./Pages/Project_2.html">PROJECT 2</a></li>
+<li><a href="./Pages/All_projects.html">ALL PROJECTS</a></li>
+<li><a href="./Pages/From.html">FORM</a></li>
+</ul>
+</nav>
+</header>
+
+
+<section class="hyperspace">
+  <!-- updated: left and right are .proj-card with title + subtext below; center keeps loader -->
+  <div class="projects-row">
+    <div class="proj-card left">
+      <div class="proj-title">EcoSwap</div>
+      <div class="proj-sub">
+        <p>EcoSwap is a platform created by Jesús and Cristian to give a second life to items we no longer use. In a world where we discard more than we reuse, EcoSwap connects people who want to swap books, clothing, electronics and much more.</p>
+        <p>With the help of their "mini-employees" Pablo Tomás Parera and Guillem Chivite, the team seeks to turn waste into opportunities.</p>
+        <p>A project designed to make swapping easy, safe... and surprisingly useful.</p>
+        <p>Do you have something you no longer use? Maybe someone else needs it.</p>
+      </div>
+    </div>
+
+    <div class="wrapper">
+      <div class="loading-wrapper">
+        <div class="rotor">
+          <div class="circle"></div>
+          <div class="dot"></div>
+          <div class="dot-two"></div>
+        </div>
+        <i class="fab fa-jedi-order icon"></i>
+      </div>
+    </div>
+
+    <div class="proj-card right">
+      <div class="proj-title">ChefAI</div>
+      <div class="proj-sub">
+        <p>ChefAI is an intelligent web app that tells you what you can cook using ONLY the ingredients you have at home.</p>
+        <p>Jesús and Cristian created this project to help people who don't have the time, ideas, or energy to decide what's for dinner. With the support of helpers Pablo Tomás Parera and Guillem Chivite, the platform combines simplicity and creativity to reduce food waste.</p>
+        <p>Quick, easy recipes tailored to what's in your fridge.</p>
+        <p>Open your kitchen… and let ChefAI do the rest.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- removed the single central .proj-desc; each side now has its own .proj-sub -->
+</section>
+
+
+<footer class="footer">
+<div class="footer-box">
+<p>© 2025 CRISTIAN OJEDA, JESUS PALMA — ALL RIGHTS RESERVED — TWITTER | FACEBOOK | INSTAGRAM</p>
+</div>
+</footer>
+
+
+</body>
+</html>
